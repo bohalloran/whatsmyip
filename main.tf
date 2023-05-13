@@ -4,12 +4,12 @@ variable "awsprops" {
     type = map
     default = {
     region = "us-east-1"
-    vpc = "vpc-0839f3a73a5393327"
+    vpc = "vpc-7d627119"
     ami = "ami-007855ac798b5175e"
     itype = "t2.micro"
-    subnet = "subnet-0e13b91c69279bb55"
+    subnet = "subnet-f9cfb38f"
     publicip = true
-    keyname = "whatsmyip"
+    keyname = "Instance-1-Key-Pair"
     secgroupname = "whatsmyip-sg"
   }
 }

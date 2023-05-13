@@ -5,7 +5,7 @@
 sudo apt-get update
 sudo apt-get install \
     ca-certificates \
-    curl \``
+    curl \
     gnupg
 sudo install -m 0755 -d /etc/apt/keyrings
 # download and install docker
